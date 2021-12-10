@@ -1,0 +1,13 @@
+package oneExercise;
+
+import java.util.Scanner;
+
+public class Application {
+
+	Scanner scanner = new Scanner(System.in);
+	
+	
+	scanner.close();
+	
+			
+}

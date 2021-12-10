@@ -1,0 +1,52 @@
+package app.professor;
+
+public class Emprego {
+
+	private String name;
+	private int id;
+	private Double salary;
+
+	public Emprego(String name, int id, Double salary) {
+	
+		this.name = name;
+		this.id = id;
+		this.salary = salary;
+	}
+	public Emprego( Double salary) {
+				
+		this.salary = salary;
+		
+	}
+	public Emprego() {
+	
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public Double getSalary() {
+		return salary;
+	}
+
+
+	public void setIncrease(double porcentagem) {
+		salary = salary*((porcentagem/100)+1);
+	}
+	public String toString() {
+		return id + ", " + name + ", " + String.format("%.2f", salary);
+	}
+
+}

@@ -1,0 +1,37 @@
+package entities;
+
+public class NewAccount {
+private String name;
+private int conta;
+private double deposito=0;
+
+public NewAccount(String name, int conta, double deposito) {
+	super();
+	this.name = name;
+	this.conta = conta;
+	this.deposito = deposito;
+}
+
+public String getName() {
+	return name;
+}
+
+public void setName(String name) {
+	this.name = name;
+}
+public int getConta() {
+	return conta;
+}
+
+diego
+public double getDeposito() {
+	return deposito;
+}
+
+
+
+public String toString(String name, int conta, double deposito) {
+	return name + ",  " + " " + conta + " " + String.format("%.2f", deposito);
+}
+
+}
