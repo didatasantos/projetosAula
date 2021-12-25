@@ -13,6 +13,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\temp\ws-eclipce\b16-metodos_e_classes-abstratas"/>
+			<item value="C:\temp\ws-eclipce"/>
 			<item value="C:\temp\ws-eclipce\a8-matrix"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
